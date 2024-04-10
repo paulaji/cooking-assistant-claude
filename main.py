@@ -7,8 +7,6 @@ load_dotenv()
 
 api_key = os.getenv("API_KEY")
 
-print(api_key)
-
 client = anthropic.Anthropic(api_key=api_key)
 
 def chat():
